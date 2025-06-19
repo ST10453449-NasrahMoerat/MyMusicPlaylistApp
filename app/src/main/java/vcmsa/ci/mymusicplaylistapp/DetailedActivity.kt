@@ -18,8 +18,9 @@ class DetailedActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_detailed)
 
+
         val song = intent.getStringArrayExtra("Song A, Song B , Song C, Song D")
-        val artists = intent.getStringArrayExtra("Artist A, Artist B, Artist C, Artist D")
+        val artist = intent.getStringArrayExtra("Artist A, Artist B, Artist C, Artist D")
         val Rating = intent.getStringArrayExtra("4,1,2,3")
         val comment = intent.getStringArrayExtra("Rap, Dance song, Best Love song, Memories")
 
@@ -45,22 +46,20 @@ class DetailedActivity : AppCompatActivity() {
         avgButton.setOnClickListener {
             if (MainActivity.songs.isEmpty()) {
                 Toast.makeText(this, "Playlist is empty", Toast.LENGTH_SHORT).show()
-            } else {
-                var total = 0.0
-                for (song in MainActivity.songs) {
-                    total += song.rating
+            } else{
+                var total=0.0
+                for(song in MainActivity.songs) {
+                    total+=song.rating
                 }
-                val avg = total / MainActivity.songs.siza
+                val avg = total/ MainActivity.songs.size
 
                 AlertDialog.Builder(this)
                     .setTitle("Average Rating")
-                    .setMessage("The average rating is: %.2f.format(avg)")
-                    .setPositiveButton("OK,null")
-                    .show()
-            }
-        }
-        backButton.setOnClickListener {
-            finish()
+                    .setMessage("This average rating is:%.2f.format(average))
+
+
         }
     }
+    }
 }
+
