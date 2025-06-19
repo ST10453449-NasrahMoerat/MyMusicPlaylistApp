@@ -1,0 +1,5 @@
+![code screenshot - main activity](https://github.com/user-attachments/assets/770c9eea-b1d9-408f-bed0-2547d5f6fbb9)
+![main screen](https://github.com/user-attachments/assets/17fe5295-2c5d-46fc-aa2a-08a555e95982)
+![code screenshot](https://github.com/user-attachments/assets/91b5b39f-c83f-4d65-83ff-4769ded538ce)
+![code screenshot 2 - detailed activity](https://github.com/user-attachments/assets/20fddad6-979b-45d9-ad5c-03217886a99c)
+![detailed screen](https://github.com/user-attachments/assets/431b611e-6cea-43f4-8dc2-ca7e525abbb6)
